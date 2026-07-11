@@ -230,3 +230,45 @@ opacity:.8;
     transform:translateY(-4px);
     box-shadow:0 15px 35px rgba(0,0,0,0.25);
 }
+
+/* ===== Navigation Bar ===== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:18px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(5,7,13,0.75);
+    backdrop-filter:blur(14px);
+    z-index:1000;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+    font-size:1.5rem;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.nav-links{
+    display:flex;
+    gap:35px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    opacity:.8;
+    transition:.3s;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    opacity:1;
+    color:#6eb8ff;
+}
+
